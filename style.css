@@ -1,0 +1,58 @@
+body {
+    color: black;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Baloo Thambi";
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.container > span {
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px rebeccapurple, 0 0 50px rebeccapurple, 0 0 100px rebeccapurple;
+    }
+    10%, 90%{
+        color: #111;
+
+    }
+}
+
+.container > span:nth-child(2){
+    animation-delay: 0s;
+}
+.container > span:nth-child(3){
+    animation-delay: 0s;
+}
+.container > span:nth-child(4){
+    animation-delay: 0.60s;
+}
+.container > span:nth-child(5){
+    animation-delay: 0.60s;
+}
+.container > span:nth-child(6){
+    animation-delay: 0.60s;
+}
+.container > span:nth-child(7){
+    animation-delay: 0.60s;
+}
+.container > span:nth-child(8){
+    animation-delay: 0.20s;
+}
+.container > span:nth-child(9){
+    animation-delay: 1.20s;
+}
+.container > span:nth-child(10){
+    animation-delay: 1.20s;
+}
+.container > span:nth-child(11){
+    animation-delay: 1.20s;
+}
